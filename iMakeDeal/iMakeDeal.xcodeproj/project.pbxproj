@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891961A31CA98FF400C24BD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891961A21CA98FF400C24BD1 /* AppDelegate.swift */; };
+		891961A51CA98FF400C24BD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891961A41CA98FF400C24BD1 /* ViewController.swift */; };
+		891961A81CA98FF400C24BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891961A61CA98FF400C24BD1 /* Main.storyboard */; };
+		891961AA1CA98FF400C24BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891961A91CA98FF400C24BD1 /* Assets.xcassets */; };
+		891961AD1CA98FF400C24BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891961AB1CA98FF400C24BD1 /* LaunchScreen.storyboard */; };
+		891961B81CA98FF400C24BD1 /* iMakeDealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891961B71CA98FF400C24BD1 /* iMakeDealTests.swift */; };
+		891961C31CA98FF400C24BD1 /* iMakeDealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891961C21CA98FF400C24BD1 /* iMakeDealUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		891961B41CA98FF400C24BD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 891961971CA98FF400C24BD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8919619E1CA98FF400C24BD1;
+			remoteInfo = iMakeDeal;
+		};
+		891961BF1CA98FF400C24BD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 891961971CA98FF400C24BD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8919619E1CA98FF400C24BD1;
+			remoteInfo = iMakeDeal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8919619F1CA98FF400C24BD1 /* iMakeDeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMakeDeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		891961A21CA98FF400C24BD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		891961A41CA98FF400C24BD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		891961A71CA98FF400C24BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		891961A91CA98FF400C24BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		891961AC1CA98FF400C24BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		891961AE1CA98FF400C24BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891961B31CA98FF400C24BD1 /* iMakeDealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMakeDealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		891961B71CA98FF400C24BD1 /* iMakeDealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMakeDealTests.swift; sourceTree = "<group>"; };
+		891961B91CA98FF400C24BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891961BE1CA98FF400C24BD1 /* iMakeDealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMakeDealUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		891961C21CA98FF400C24BD1 /* iMakeDealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMakeDealUITests.swift; sourceTree = "<group>"; };
+		891961C41CA98FF400C24BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8919619C1CA98FF400C24BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891961B01CA98FF400C24BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891961BB1CA98FF400C24BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		891961961CA98FF400C24BD1 = {
+			isa = PBXGroup;
+			children = (
+				891961A11CA98FF400C24BD1 /* iMakeDeal */,
+				891961B61CA98FF400C24BD1 /* iMakeDealTests */,
+				891961C11CA98FF400C24BD1 /* iMakeDealUITests */,
+				891961A01CA98FF400C24BD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		891961A01CA98FF400C24BD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8919619F1CA98FF400C24BD1 /* iMakeDeal.app */,
+				891961B31CA98FF400C24BD1 /* iMakeDealTests.xctest */,
+				891961BE1CA98FF400C24BD1 /* iMakeDealUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		891961A11CA98FF400C24BD1 /* iMakeDeal */ = {
+			isa = PBXGroup;
+			children = (
+				891961A21CA98FF400C24BD1 /* AppDelegate.swift */,
+				891961A41CA98FF400C24BD1 /* ViewController.swift */,
+				891961A61CA98FF400C24BD1 /* Main.storyboard */,
+				891961A91CA98FF400C24BD1 /* Assets.xcassets */,
+				891961AB1CA98FF400C24BD1 /* LaunchScreen.storyboard */,
+				891961AE1CA98FF400C24BD1 /* Info.plist */,
+			);
+			path = iMakeDeal;
+			sourceTree = "<group>";
+		};
+		891961B61CA98FF400C24BD1 /* iMakeDealTests */ = {
+			isa = PBXGroup;
+			children = (
+				891961B71CA98FF400C24BD1 /* iMakeDealTests.swift */,
+				891961B91CA98FF400C24BD1 /* Info.plist */,
+			);
+			path = iMakeDealTests;
+			sourceTree = "<group>";
+		};
+		891961C11CA98FF400C24BD1 /* iMakeDealUITests */ = {
+			isa = PBXGroup;
+			children = (
+				891961C21CA98FF400C24BD1 /* iMakeDealUITests.swift */,
+				891961C41CA98FF400C24BD1 /* Info.plist */,
+			);
+			path = iMakeDealUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8919619E1CA98FF400C24BD1 /* iMakeDeal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891961C71CA98FF400C24BD1 /* Build configuration list for PBXNativeTarget "iMakeDeal" */;
+			buildPhases = (
+				8919619B1CA98FF400C24BD1 /* Sources */,
+				8919619C1CA98FF400C24BD1 /* Frameworks */,
+				8919619D1CA98FF400C24BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMakeDeal;
+			productName = iMakeDeal;
+			productReference = 8919619F1CA98FF400C24BD1 /* iMakeDeal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		891961B21CA98FF400C24BD1 /* iMakeDealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891961CA1CA98FF400C24BD1 /* Build configuration list for PBXNativeTarget "iMakeDealTests" */;
+			buildPhases = (
+				891961AF1CA98FF400C24BD1 /* Sources */,
+				891961B01CA98FF400C24BD1 /* Frameworks */,
+				891961B11CA98FF400C24BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891961B51CA98FF400C24BD1 /* PBXTargetDependency */,
+			);
+			name = iMakeDealTests;
+			productName = iMakeDealTests;
+			productReference = 891961B31CA98FF400C24BD1 /* iMakeDealTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		891961BD1CA98FF400C24BD1 /* iMakeDealUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891961CD1CA98FF400C24BD1 /* Build configuration list for PBXNativeTarget "iMakeDealUITests" */;
+			buildPhases = (
+				891961BA1CA98FF400C24BD1 /* Sources */,
+				891961BB1CA98FF400C24BD1 /* Frameworks */,
+				891961BC1CA98FF400C24BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891961C01CA98FF400C24BD1 /* PBXTargetDependency */,
+			);
+			name = iMakeDealUITests;
+			productName = iMakeDealUITests;
+			productReference = 891961BE1CA98FF400C24BD1 /* iMakeDealUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		891961971CA98FF400C24BD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Antonio Piau";
+				TargetAttributes = {
+					8919619E1CA98FF400C24BD1 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2UE47YSJK2;
+					};
+					891961B21CA98FF400C24BD1 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2UE47YSJK2;
+						TestTargetID = 8919619E1CA98FF400C24BD1;
+					};
+					891961BD1CA98FF400C24BD1 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2UE47YSJK2;
+						TestTargetID = 8919619E1CA98FF400C24BD1;
+					};
+				};
+			};
+			buildConfigurationList = 8919619A1CA98FF400C24BD1 /* Build configuration list for PBXProject "iMakeDeal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 891961961CA98FF400C24BD1;
+			productRefGroup = 891961A01CA98FF400C24BD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8919619E1CA98FF400C24BD1 /* iMakeDeal */,
+				891961B21CA98FF400C24BD1 /* iMakeDealTests */,
+				891961BD1CA98FF400C24BD1 /* iMakeDealUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8919619D1CA98FF400C24BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891961AD1CA98FF400C24BD1 /* LaunchScreen.storyboard in Resources */,
+				891961AA1CA98FF400C24BD1 /* Assets.xcassets in Resources */,
+				891961A81CA98FF400C24BD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891961B11CA98FF400C24BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891961BC1CA98FF400C24BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8919619B1CA98FF400C24BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891961A51CA98FF400C24BD1 /* ViewController.swift in Sources */,
+				891961A31CA98FF400C24BD1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891961AF1CA98FF400C24BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891961B81CA98FF400C24BD1 /* iMakeDealTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891961BA1CA98FF400C24BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891961C31CA98FF400C24BD1 /* iMakeDealUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		891961B51CA98FF400C24BD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8919619E1CA98FF400C24BD1 /* iMakeDeal */;
+			targetProxy = 891961B41CA98FF400C24BD1 /* PBXContainerItemProxy */;
+		};
+		891961C01CA98FF400C24BD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8919619E1CA98FF400C24BD1 /* iMakeDeal */;
+			targetProxy = 891961BF1CA98FF400C24BD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		891961A61CA98FF400C24BD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891961A71CA98FF400C24BD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		891961AB1CA98FF400C24BD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891961AC1CA98FF400C24BD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		891961C51CA98FF400C24BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		891961C61CA98FF400C24BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		891961C81CA98FF400C24BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iMakeDeal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniogpiau.giardiellostudios.iMakeDeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		891961C91CA98FF400C24BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iMakeDeal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniogpiau.giardiellostudios.iMakeDeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		891961CB1CA98FF400C24BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iMakeDealTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniogpiau.giardiellostudios.iMakeDealTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMakeDeal.app/iMakeDeal";
+			};
+			name = Debug;
+		};
+		891961CC1CA98FF400C24BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iMakeDealTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniogpiau.giardiellostudios.iMakeDealTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMakeDeal.app/iMakeDeal";
+			};
+			name = Release;
+		};
+		891961CE1CA98FF400C24BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iMakeDealUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniogpiau.giardiellostudios.iMakeDealUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iMakeDeal;
+			};
+			name = Debug;
+		};
+		891961CF1CA98FF400C24BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iMakeDealUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniogpiau.giardiellostudios.iMakeDealUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iMakeDeal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8919619A1CA98FF400C24BD1 /* Build configuration list for PBXProject "iMakeDeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891961C51CA98FF400C24BD1 /* Debug */,
+				891961C61CA98FF400C24BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891961C71CA98FF400C24BD1 /* Build configuration list for PBXNativeTarget "iMakeDeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891961C81CA98FF400C24BD1 /* Debug */,
+				891961C91CA98FF400C24BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		891961CA1CA98FF400C24BD1 /* Build configuration list for PBXNativeTarget "iMakeDealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891961CB1CA98FF400C24BD1 /* Debug */,
+				891961CC1CA98FF400C24BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		891961CD1CA98FF400C24BD1 /* Build configuration list for PBXNativeTarget "iMakeDealUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891961CE1CA98FF400C24BD1 /* Debug */,
+				891961CF1CA98FF400C24BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 891961971CA98FF400C24BD1 /* Project object */;
+}
